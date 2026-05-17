@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    container_name: sgb-app-dev
+    restart: always
+
+  netdata:
+    image: netdata/netdata:latest
+    container_name: sgb-netdata-dev
+    ports:
+      - "19999:19999"
+    security_opt:
+      - apparmor:unconfined
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
