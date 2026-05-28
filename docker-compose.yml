@@ -3,7 +3,8 @@ services:
     build: .
     container_name: sgb-app-dev
     restart: always
-
+    volumes:
+      - /var/log/auth.log:/var/log/auth.log:ro
   netdata:
     image: netdata/netdata:latest
     container_name: sgb-netdata-dev
