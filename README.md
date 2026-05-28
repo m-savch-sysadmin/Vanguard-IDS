@@ -29,9 +29,7 @@ I built this project in my homelab to understand how SOC analysts collect and an
    * **Telegram:** Delivers a real-time message to a private group channel.
    * **Splunk:** Sends a JSON event structure to Splunk's HTTP Event Collector (HEC) on port 8088.
 
-## How to Run It
+<img width="1280" height="139" alt="splunk" src="https://github.com/user-attachments/assets/4e1789a6-c962-40d1-bb3e-a7374aec0743" />
+<img width="1836" height="755" alt="Screenshot 2026-05-25 191400" src="https://github.com/user-attachments/assets/d8bcdbe3-8e81-4424-b4db-84580afc937c" />
+<img width="594" height="326" alt="Screenshot 2026-05-25 191227" src="https://github.com/user-attachments/assets/400ea3ee-28ed-41d7-85c9-bfc05b7914f9" />
 
-1. Clone the repository into your Linux environment:
-   ```bash
-   git clone [https://github.com/yourusername/vanguard-ids.git](https://github.com/yourusername/vanguard-ids.git)
-   cd vanguard-ids
